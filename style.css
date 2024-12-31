@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #222;
+    color: #fff;
+    font-family: "Quicksand", serif;
+}
+input{
+    width: 100%;
+    height: 30px;
+    outline: none;
+    border: none;
+    background: #111;
+    margin: 4px 0;
+    border-radius: 4px;
+    padding: 4px;
+    color: #fff;
+}
+input:focus{
+    background: #000;
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+#deleteAll{
+    margin: 20px 0;
+
+}
+/* head start */
+.head{
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+/* head end */
+/* crud start */
+.crud{
+    width: 80%;
+    margin: auto;
+}
+/* crud end */
+/* input start */
+.price input{
+    width: 20%;
+}
+#total{
+    background: #a00d02;
+    padding: 5px 2px;
+    border-radius: 4px;
+}
+#total::before{
+    content: "Total: ";
+}
+button{
+    width: 100%;
+    height: 30px;
+    border: none;
+    cursor: pointer;
+    background: #580168;
+    color: #fff;
+    border-radius: 20px;
+}
+button:hover{
+    background: #9308ab;
+    letter-spacing: 1px;
+    transition-duration: .5s;
+}
+/* input end */
+/* output Start */
+.btnSearch{
+    display: flex;
+    justify-content: space-between;
+}
+.btnSearch button{
+    width: 45%;
+}
+table{
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+}
+table th{
+    text-transform: uppercase;
+}
+th , td {
+    padding: 5px;
+}
+/* output End */
